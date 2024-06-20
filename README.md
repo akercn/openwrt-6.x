@@ -8,7 +8,7 @@
 
 ## 编译命令
 
-1. 首先装好 Linux 系统， Ubuntu 20.04 LTS
+1. 首先装好 Linux 系统， Ubuntu 24.04 LTS
 
 2. 安装编译依赖
 
@@ -26,7 +26,7 @@
 3. 下载源代码，更新 feeds 并选择配置
 
    ```bash
-   git clone -b main --single-branch https://github.com/breeze303/openwrt-6.x.git
+   git clone -b main --single-branch https://github.com/darkrain88/openwrt-6.x.git
    cd openwrt-6.x
    ./scripts/feeds update -a && ./scripts/feeds install -a
    make menuconfig
