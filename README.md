@@ -60,6 +60,7 @@
 
 7. 编译完成后输出路径：bin/targets
 8. 
+
 8 一些配置
 
 # sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
