@@ -82,15 +82,17 @@ git clone --depth=1 https://github.com/zhengmz/luci-app-zerotier.git feeds/luci/
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git feeds/luci/applications/ddns-go
 
 # sms-tool
-
 git clone https://github.com/4IceG/luci-app-sms-tool.git  feeds/luci/applications/luci-app-sms-tool
 
 git clone https://github.com/darkrain88/luci-app-sms-tool
 
+# passwell
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
+
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
+
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
-git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
+
 
 
 # MosDNS
@@ -98,6 +100,7 @@ git clone --depth=1 https://github.com/sbwml/luci-app-mosdns feeds/luci/applicat
 
 # Adguardhome
 git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome feeds/luci/applications/luci-app-adguardhome
+
 # Alist
 git clone --depth=1 https://github.com/sbwml/luci-app-alist package/luci-app-alist
 
